@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model augments {
+  id        Int      @id @default(autoincrement())
+  name      String?
+  tier      String?
+  pickrate  String?
+  winrate   String?
+  top4      String?
+  stage14   String?
+  stage33   String?
+  stage46   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  placement String?
+  img       String?
+  api_name  String?  @db.VarChar(255)
+}
+
+model augments_match_data {
+  id           Int      @id @default(autoincrement())
+  matchid      String?
+  elo          String?
+  game_version String?
+  placement    String?
+  augment      String?
+  api_name     String?
+  tier         String?
+  round        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @default(now())
+}
+
+model historic_stats {
+  id         Int      @id @default(autoincrement())
+  user       String?
+  status     String?
+  progresso  Float?   @default(0)
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now())
+}
+
+model matches {
+  id        Int      @id @default(autoincrement())
+  matchid   String?
+  elo       String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+}
