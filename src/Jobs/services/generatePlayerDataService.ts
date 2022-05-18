@@ -3,6 +3,8 @@ import { PrismaClient } from "@prisma/client";
 import chillout from "chillout";
 import axios from "axios";
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 export default async function generatePlayerDataService(id: number) {
 	log.info(`Gerando player data -> Historic ID ${id}`);
 	let request_count = 0;
@@ -24,9 +26,8 @@ export default async function generatePlayerDataService(id: number) {
 		await chillout.forOf(ranks, async (rank) => {
 			log.info(`Buscando players ${rank}`);
 			if (request_count === 99) {
-				setTimeout(() => {
-					log.info(`Request count ${request_count} sleeping for 60 seconds`);
-				}, 60000);
+				log.info(`Request count ${request_count},Aguardando 1 minuto`);
+				await sleep(60000);
 				request_count = 0;
 			}
 
@@ -40,9 +41,8 @@ export default async function generatePlayerDataService(id: number) {
 				log.info(`Buscando dados de ${key}/${players.length}`);
 
 				if (request_count === 99) {
-					setTimeout(() => {
-						log.info(`Request count ${request_count} sleeping for 60 seconds`);
-					}, 60000);
+					log.info(`Request count ${request_count},Aguardando 1 minuto`);
+					await sleep(60000);
 					request_count = 0;
 				}
 
@@ -54,9 +54,8 @@ export default async function generatePlayerDataService(id: number) {
 				log.info(`Player: ${player_data}`);
 
 				if (request_count === 99) {
-					setTimeout(() => {
-						log.info(`Request count ${request_count} sleeping for 60 seconds`);
-					}, 60000);
+					log.info(`Request count ${request_count},Aguardando 1 minuto`);
+					await sleep(60000);
 					request_count = 0;
 				}
 
