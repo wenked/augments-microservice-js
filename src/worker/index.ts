@@ -1,7 +1,8 @@
 import client, { Connection, Channel, ConsumeMessage } from "amqplib";
 import log from "../logger";
+import augmentStatsJob from "../Jobs/augmentStatsJob";
 
-async function Worker() {
+export default async function Worker() {
 	// consumer for the queue.
 	// We use currying to give it the channel required to acknowledge the message
 	try {
@@ -10,9 +11,10 @@ async function Worker() {
 			(msg: ConsumeMessage | null): void => {
 				try {
 					if (msg) {
-						// Display the received message
-						log.info(msg.content.toString());
-						// Acknowledge the message
+						const message = JSON.parse(msg.content.toString());
+						log.info(message);
+						augmentStatsJob(message);
+
 						channel.ack(msg);
 					}
 				} catch (error) {
@@ -33,5 +35,3 @@ async function Worker() {
 		log.error(`Error in worker: ${error}`);
 	}
 }
-
-Worker();
