@@ -14,12 +14,12 @@ model augments {
   pickrate  String?
   winrate   String?
   top4      String?
-  stage14   String?
-  stage33   String?
-  stage46   String?
+  stage14   Float?
+  stage33   Float?
+  stage46   Float?
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now())
-  placement String?
+  placement Float?
   img       String?
   api_name  String?  @db.VarChar(255)
 }

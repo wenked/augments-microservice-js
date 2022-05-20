@@ -1,3 +1,5 @@
+import generateAugmentsStats from "./generateAugmentsStatsService";
 import generatePlayerDataService from "./generatePlayerDataService";
+import getMatchDataService from "./getMatchDataService";
 
-export { generatePlayerDataService };
+export { generateAugmentsStats, generatePlayerDataService, getMatchDataService };

@@ -2,8 +2,7 @@ import log from "../../logger";
 import { PrismaClient } from "@prisma/client";
 import chillout from "chillout";
 import axios from "axios";
-
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+import { sleep } from "../../utils";
 
 export default async function generatePlayerDataService(id: number) {
 	log.info(`Gerando player data -> Historic ID ${id}`);

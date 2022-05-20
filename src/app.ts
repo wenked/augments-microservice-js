@@ -1,5 +1,5 @@
-import express from "express";
 import config from "config";
+import express from "express";
 import log from "./logger";
 import Worker from "./worker";
 
@@ -7,8 +7,7 @@ const port = config.get("port") as number;
 const host = config.get("host") as string;
 
 process.on("uncaughtException", (error) => {
-	log.error("Alert! ERROR : ", error);
-	process.exit(1); // Exit your app
+	log.error(`Alert! ERROR : ${error}`);
 });
 
 const app = express();
