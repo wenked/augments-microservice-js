@@ -1,6 +1,11 @@
 import log from "../logger";
 
-import { generateAugmentsStats, generatePlayerDataService, getMatchDataService } from "./services";
+import {
+	generateAugmentsStats,
+	generatePlayerDataService,
+	getAugmentsMatchDataService,
+	getChampionsMatchDataService,
+} from "./services";
 
 interface AugmentStatsJobProps {
 	generate_augment_stats: boolean;
@@ -20,7 +25,8 @@ export default async function augmentStatsJob({
 	try {
 		// await generatePlayerDataService(id);
 		// await getMatchDataService(id);
-		await generateAugmentsStats(id);
+		// await getAugmentMatchDataService(id);
+		await getChampionsMatchDataService();
 	} catch (error) {
 		log.error(`Error in augmentStatsJob: ${error}`);
 		throw new Error("Error in augmentStatsJob");

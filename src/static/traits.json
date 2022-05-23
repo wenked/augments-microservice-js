@@ -1,0 +1,302 @@
+[
+	{
+		"bonus": "Arcanists increase the Ability Power of your team.",
+		"champions": ["Ahri", "Brand", "Malzahar", "Swain", "Vex", "Viktor", "Ziggs"],
+		"name": "Arcanist",
+		"set": [
+			{ "bonus": "Your team gains 20% Ability Power", "count": 2 },
+			{
+				"bonus": "Your team gains 20% Ability Power, Arcanists gain an additional 40%",
+				"count": 4
+			},
+			{
+				"bonus": "Your team gains 50% Ability Power, Arcanists gain an additional 50%",
+				"count": 6
+			},
+			{ "bonus": "Your team gains 145% Ability Power", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+		"champions": ["Ekko", "Khazix", "Nocturne", "Talon", "Twitch"],
+		"name": "Assassin",
+		"set": [
+			{ "bonus": "10% Crit Chance & 20% Crit Damage", "count": 2 },
+			{ "bonus": "30% Crit Chance & 40% Crit Damage", "count": 4 },
+			{ "bonus": "50% Crit Chance & 60% Crit Damage", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+		"champions": ["Blitzcrank", "Braum", "Darius", "Galio", "Leona", "Poppy"],
+		"name": "Bodyguard",
+		"set": [
+			{ "bonus": "80 Armor, 150 shield", "count": 2 },
+			{ "bonus": "160 Armor, 350 shield", "count": 4 },
+			{ "bonus": "250 Armor, 700 shield", "count": 6 },
+			{ "bonus": "450 Armor, 1200 shield", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+		"champions": ["Chogath", "Illaoi", "RekSai", "Sejuani", "Tahm Kench", "Vi", "Zac"],
+		"name": "Bruiser",
+		"set": [
+			{ "bonus": "125 Health", "count": 2 },
+			{ "bonus": "225 Health", "count": 4 },
+			{ "bonus": "450 Health", "count": 6 },
+			{ "bonus": "800 Health", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+		"champions": ["Camille", "Draven", "Kaisa", "Quinn", "Tryndamere", "Warwick"],
+		"name": "Challenger",
+		"set": [
+			{ "bonus": "25% Attack Speed", "count": 2 },
+			{ "bonus": "55% Attack Speed", "count": 4 },
+			{ "bonus": "90% Attack Speed", "count": 6 },
+			{ "bonus": "150% Attack Speed", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.",
+		"champions": ["Alistar", "Chogath", "Galio"],
+		"name": "Colossus",
+		"set": [{ "bonus": "Colossus champions take 25% less damage.", "count": 2 }]
+	},
+	{
+		"bonus": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+		"champions": ["Lulu", "Morgana", "Orianna", "Senna"],
+		"name": "Enchanter",
+		"set": [
+			{ "bonus": "+20 Magic Resist, 25% healing and shielding", "count": 2 },
+			{ "bonus": "+35 Magic Resist, 40% healing and shielding", "count": 4 },
+			{ "bonus": "+50 Magic Resist, 60% healing and shielding", "count": 6 },
+			{ "bonus": "+75 Magic Resist, 100% healing and shielding", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+		"champions": ["Ekko", "Ezreal", "Jayce", "Seraphine", "Singed", "Zilean"],
+		"name": "Innovator",
+		"set": [
+			{ "bonus": "Mechanical Scarab", "count": 3 },
+			{ "bonus": "Mechanical Bear", "count": 5 },
+			{ "bonus": "Mechanical Dragon", "count": 7 }
+		]
+	},
+	{
+		"bonus": "Your team gains Mana every 2 seconds.",
+		"champions": ["Kassadin", "Renata Glasc", "Silco", "Syndra", "Zyra"],
+		"name": "Scholar",
+		"set": [
+			{ "bonus": "5 Mana", "count": 2 },
+			{ "bonus": "10 Mana", "count": 4 },
+			{ "bonus": "20 Mana", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Snipers deal bonus damage for each hex between themselves and their target.",
+		"champions": ["Ashe", "Caitlyn", "Jhin", "Miss Fortune", "Zeri"],
+		"name": "Sniper",
+		"set": [
+			{ "bonus": "8% bonus damage", "count": 2 },
+			{ "bonus": "16% bonus damage", "count": 4 },
+			{ "bonus": "30% bonus damage", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Strikers gain bonus Attack Damage.",
+		"champions": ["Gnar", "Irelia", "Jhin", "Jarvan IV", "RekSai", "Sivir"],
+		"name": "Striker",
+		"set": [
+			{ "bonus": "+30 Attack Damage", "count": 2 },
+			{ "bonus": "+65 Attack Damage", "count": 4 },
+			{ "bonus": "+110 Attack Damage", "count": 6 }
+		]
+	},
+	{
+		"champions": ["Jayce"],
+		"name": "Transformer",
+		"set": [
+			{
+				"bonus": "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows.",
+				"count": 1
+			}
+		]
+	},
+	{
+		"bonus": "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.",
+		"champions": ["Corki", "Gangplank", "Jinx", "Lucian"],
+		"name": "Twinshot",
+		"set": [
+			{ "bonus": "10 Attack Damage, 40% chance", "count": 2 },
+			{ "bonus": "25 Attack Damage, 55% chance", "count": 3 },
+			{ "bonus": "40 Attack Damage, 70% chance", "count": 4 },
+			{ "bonus": "60 Attack Damage, 100% chance", "count": 5 }
+		]
+	},
+	{
+		"bonus": "After dropping below 75% Health, Chemtech champions become chem-powered, gaining Attack Speed, 20% damage reduction, and regenerating a percentage of their maximum Health each second for 8 seconds.",
+		"champions": ["Renata Glasc", "Singed", "Tryndamere", "Twitch", "Viktor", "Warwick", "Zac"],
+		"name": "Chemtech",
+		"set": [
+			{ "bonus": "15% Attack Speed, 4% Health", "count": 3 },
+			{ "bonus": "40% Attack Speed, 7% Health", "count": 5 },
+			{ "bonus": "80% Attack Speed, 10% Health", "count": 7 },
+			{ "bonus": "150% Attack Speed, 18% Health", "count": 9 }
+		]
+	},
+	{
+		"bonus": "Your team has increased Attack Speed, with an additional increase per augment in the Hexcore.",
+		"champions": ["Camille", "Jhin", "Orianna", "Zilean"],
+		"name": "Clockwork",
+		"set": [
+			{ "bonus": "10% Attack Speed + 5% per augment", "count": 2 },
+			{ "bonus": "40% Attack Speed + 10% per augment", "count": 4 },
+			{ "bonus": "80% Attack Speed + 15% per augment", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Debonair champions gain bonus Health and Ability Power. If there is a Debonair VIP in play, they activate their unique bonus. (Sell the old VIP for a chance to see a new one in your Shop.)",
+		"champions": ["Brand", "Draven", "Leona", "Syndra", "Talon", "Zeri"],
+		"name": "Debonair",
+		"set": [
+			{ "bonus": "200 Health, 20 Ability Power", "count": 3 },
+			{ "bonus": "450 Health, 45 Ability Power", "count": 5 },
+			{ "bonus": "800 Health, 80 Ability Power", "count": 7 }
+		]
+	},
+	{
+		"bonus": "Enforcers stun enemies at the start of combat. The target breaks free after 4 seconds, or after losing 40% of their maximum Health. Enforcers will not try to stun enemies who are immune to crowd control effects.",
+		"champions": ["Caitlyn", "Jayce", "Sejuani", "Vi"],
+		"name": "Enforcer",
+		"set": [
+			{ "bonus": "The enemy who has the most Health.", "count": 2 },
+			{
+				"bonus": "And the enemy who dealt the most damage last combat.",
+				"count": 4
+			}
+		]
+	},
+	{
+		"champions": ["Tahm Kench"],
+		"name": "Glutton",
+		"set": [
+			{
+				"bonus": "An ally from the bench can be fed to Tahm Kench once per planning phase, permanently granting him either Ability Power, Health, Armor, or Magic Resist.\n\n        To feed, hold an ally from the bench over Tahm Kench until his mouth opens, then release.",
+				"count": 1
+			}
+		]
+	},
+	{
+		"bonus": "At the start of combat and every 5 seconds afterwards, the Hexcore sends out a pulse that charges up allied Hextech champions with a shield for 4 seconds. While the shield is active, attacks deal bonus magic damage on hit. This shield does not stack.",
+		"champions": ["Alistar", "Jarvan IV", "Lucian", "Nocturne", "Sejuani", "Sivir", "Swain"],
+		"name": "Hextech",
+		"set": [
+			{ "bonus": "140 Shield, 20 magic damage", "count": 2 },
+			{ "bonus": "180 Shield, 50 magic damage", "count": 4 },
+			{ "bonus": "400 Shield, 100 magic damage", "count": 6 },
+			{ "bonus": "600 Shield, 170 magic damage", "count": 8 }
+		]
+	},
+	{
+		"champions": ["Silco"],
+		"name": "Mastermind",
+		"set": [
+			{
+				"bonus": "At the start of combat, the Mastermind grants the 2 allies directly in front of him 40 of their starting Mana.",
+				"count": 1
+			}
+		]
+	},
+	{
+		"bonus": "Gain a treasure chest that opens when you win combat against a player. At the start of each planning phase vs a player, dice rolls add loot to the chest. The longer you've gone without opening the chest, the luckier the dice.",
+		"champions": ["Gangplank", "Illaoi", "Miss Fortune", "Quinn", "Tahm Kench"],
+		"name": "Mercenary",
+		"set": [
+			{ "bonus": "Roll 2 dice", "count": 3 },
+			{ "bonus": "The dice are even luckier!", "count": 5 },
+			{
+				"bonus": "Upon winning, roll a 3rd dice that grants bonus loot.",
+				"count": 7
+			}
+		]
+	},
+	{
+		"bonus": "Mutants gain unique bonuses. These are different each game.\n\n    Cybernetic Enhancement grants bonus stats to Mutants with at least 1 item.\n    \n    Voracious Appetite strengthens Mutants on each ally's death.\n    \n    Voidborne executes targets below a Health threshold and deals true damage.\n    \n    Hyper-Adrenal Glands give a chance for Mutants to deal additional attacks.\n    \n    Synaptic Web reduces the Mana cost of Mutants’ Abilities.\n    \n    Bio-Leeching grants Omnivamp (healing for a percentage of damage dealt) to your team.\n    \n    Metamorphosis grants stacking bonuses to Mutants at regular intervals.",
+		"champions": ["Chogath", "Kaisa", "Kassadin", "Khazix", "Malzahar", "RekSai"],
+		"name": "Mutant",
+		"set": [
+			{ "bonus": "Different every game.", "count": 3 },
+			{ "bonus": "Different every game.", "count": 5 },
+			{ "bonus": "Different every game.", "count": 7 }
+		]
+	},
+	{
+		"bonus": "This trait is only active when you have exactly 1 unique Rival unit, as Rivals refuse to work together.",
+		"champions": ["Jinx", "Vi"],
+		"name": "Rival",
+		"set": [
+			{
+				"bonus": "Vi's mana cost is reduced by 20.\n\n    Jinx gains 40% Attack Speed for 3 seconds after scoring a takedown.",
+				"count": 1
+			}
+		]
+	},
+	{
+		"bonus": "At the start of combat, components held by Scrap champions turn into full items for the rest of combat. Also, your team gains a shield for each component equipped by your team, including those that are part of a full item.",
+		"champions": ["Blitzcrank", "Ekko", "Ezreal", "Irelia", "Jinx", "Ziggs"],
+		"name": "Scrap",
+		"set": [
+			{ "bonus": "1 component, 20 shield", "count": 2 },
+			{ "bonus": "3 component, 40 shield", "count": 4 },
+			{ "bonus": "All component, 60 shield", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Socialite reveal a spotlight on the battlefield. The unit standing in the spotlight at the start of combat gains unique bonuses.",
+		"champions": ["Galio", "Gnar", "Senna", "Seraphine"],
+		"name": "Socialite",
+		"set": [
+			{ "bonus": "20% bonus damage", "count": 1 },
+			{ "bonus": "and 4 Mana per second", "count": 2 },
+			{ "bonus": "and heal for 33% of all damage they deal", "count": 3 },
+			{ "bonus": "all of the bonuses are doubled", "count": 5 }
+		]
+	},
+	{
+		"bonus": "Certain allies are cloaked in shadows, gaining 55 Armor, 55 Magic Resist and 20% Omnivamp (healing for a percentage of all damage dealt.)",
+		"champions": ["Ahri", "Ashe", "Braum", "Darius", "Morgana", "Zyra"],
+		"name": "Syndicate",
+		"set": [
+			{
+				"bonus": "The Syndicate champion with the lowest percent Health.",
+				"count": 3
+			},
+			{ "bonus": "All Syndicate champions", "count": 5 },
+			{
+				"bonus": "Your whole team, and the effects are increased by 60%",
+				"count": 7
+			}
+		]
+	},
+	{
+		"champions": ["Corki", "Gnar", "Lulu", "Poppy", "Vex", "Ziggs"],
+		"name": "Yordle",
+		"set": [
+			{
+				"bonus": "After each player combat, a random Yordle is added to your bench for free.",
+				"count": 3
+			},
+			{ "bonus": "And Yordle's Abilities cost 25% less to cast.", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Veigar is summoned from Yordle Portal when every Yordle is 3-star.",
+		"champions": ["Veigar"],
+		"name": "Yordle-Lord",
+		"set": [{ "bonus": "Benefits from Yordle trait.", "count": 1 }]
+	}
+]

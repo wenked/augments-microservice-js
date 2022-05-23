@@ -22,4 +22,6 @@ app.listen(port, host, async () => {
 	} catch (error) {
 		log.error(`Error in app.listen: ${error}`);
 	}
+
+	
 });

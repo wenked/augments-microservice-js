@@ -5,7 +5,7 @@ import log from "../../logger";
 import agumentData from "../../static/augments_stats_formated.json";
 import { sleep } from "../../utils";
 
-export default async function getMatchDataService(id: number) {
+export default async function getAugmentsMatchDataService(id: number) {
 	try {
 		log.info(`Busca dados de partida -> Historic ID ${id}`);
 		let requestCount = 0;
@@ -24,7 +24,7 @@ export default async function getMatchDataService(id: number) {
 		const matches = await prisma.matches.findMany();
 
 		await chillout.forEach(matches, async (match: any, key: number) => {
-			log.info(`Buscando dados de ${key}/${matches.length} partidas...`);
+			log.info(`Buscando dados de ${key + 1}/${matches.length} partidas...`);
 
 			const augmentMatchDataExists = await prisma.augments_match_data.findMany({
 				where: {

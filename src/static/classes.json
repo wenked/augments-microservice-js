@@ -1,0 +1,140 @@
+[
+	{
+		"bonus": "Arcanists increase the Ability Power of your team.",
+		"champions": ["Ahri", "Brand", "Malzahar", "Swain", "Vex", "Viktor", "Ziggs"],
+		"name": "Arcanist",
+		"set": [
+			{ "bonus": "Your team gains 20% Ability Power", "count": 2 },
+			{
+				"bonus": "Your team gains 20% Ability Power, Arcanists gain an additional 40%",
+				"count": 4
+			},
+			{
+				"bonus": "Your team gains 50% Ability Power, Arcanists gain an additional 50%",
+				"count": 6
+			},
+			{ "bonus": "Your team gains 145% Ability Power", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+		"champions": ["Ekko", "Khazix", "Nocturne", "Talon", "Twitch"],
+		"name": "Assassin",
+		"set": [
+			{ "bonus": "10% Crit Chance & 20% Crit Damage", "count": 2 },
+			{ "bonus": "30% Crit Chance & 40% Crit Damage", "count": 4 },
+			{ "bonus": "50% Crit Chance & 60% Crit Damage", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+		"champions": ["Blitzcrank", "Braum", "Darius", "Galio", "Leona", "Poppy"],
+		"name": "Bodyguard",
+		"set": [
+			{ "bonus": "80 Armor, 150 shield", "count": 2 },
+			{ "bonus": "160 Armor, 350 shield", "count": 4 },
+			{ "bonus": "250 Armor, 700 shield", "count": 6 },
+			{ "bonus": "450 Armor, 1200 shield", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+		"champions": ["Chogath", "Illaoi", "RekSai", "Sejuani", "Tahm Kench", "Vi", "Zac"],
+		"name": "Bruiser",
+		"set": [
+			{ "bonus": "125 Health", "count": 2 },
+			{ "bonus": "225 Health", "count": 4 },
+			{ "bonus": "450 Health", "count": 6 },
+			{ "bonus": "800 Health", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+		"champions": ["Camille", "Draven", "Kaisa", "Quinn", "Tryndamere", "Warwick"],
+		"name": "Challenger",
+		"set": [
+			{ "bonus": "25% Attack Speed", "count": 2 },
+			{ "bonus": "55% Attack Speed", "count": 4 },
+			{ "bonus": "90% Attack Speed", "count": 6 },
+			{ "bonus": "150% Attack Speed", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.",
+		"champions": ["Alistar", "Chogath", "Galio"],
+		"name": "Colossus",
+		"set": [{ "bonus": "Colossus champions take 25% less damage.", "count": 2 }]
+	},
+	{
+		"bonus": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+		"champions": ["Lulu", "Morgana", "Orianna", "Senna"],
+		"name": "Enchanter",
+		"set": [
+			{ "bonus": "+20 Magic Resist, 25% healing and shielding", "count": 2 },
+			{ "bonus": "+35 Magic Resist, 40% healing and shielding", "count": 4 },
+			{ "bonus": "+50 Magic Resist, 60% healing and shielding", "count": 6 },
+			{ "bonus": "+75 Magic Resist, 100% healing and shielding", "count": 8 }
+		]
+	},
+	{
+		"bonus": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+		"champions": ["Ekko", "Ezreal", "Jayce", "Seraphine", "Singed", "Zilean"],
+		"name": "Innovator",
+		"set": [
+			{ "bonus": "Mechanical Scarab", "count": 3 },
+			{ "bonus": "Mechanical Bear", "count": 5 },
+			{ "bonus": "Mechanical Dragon", "count": 7 }
+		]
+	},
+	{
+		"bonus": "Your team gains Mana every 2 seconds.",
+		"champions": ["Kassadin", "Renata Glasc", "Silco", "Syndra", "Zyra"],
+		"name": "Scholar",
+		"set": [
+			{ "bonus": "5 Mana", "count": 2 },
+			{ "bonus": "10 Mana", "count": 4 },
+			{ "bonus": "20 Mana", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Snipers deal bonus damage for each hex between themselves and their target.",
+		"champions": ["Ashe", "Caitlyn", "Jhin", "Miss Fortune", "Zeri"],
+		"name": "Sniper",
+		"set": [
+			{ "bonus": "8% bonus damage", "count": 2 },
+			{ "bonus": "16% bonus damage", "count": 4 },
+			{ "bonus": "30% bonus damage", "count": 6 }
+		]
+	},
+	{
+		"bonus": "Strikers gain bonus Attack Damage.",
+		"champions": ["Gnar", "Irelia", "Jhin", "Jarvan IV", "RekSai", "Sivir"],
+		"name": "Striker",
+		"set": [
+			{ "bonus": "+30 Attack Damage", "count": 2 },
+			{ "bonus": "+65 Attack Damage", "count": 4 },
+			{ "bonus": "+110 Attack Damage", "count": 6 }
+		]
+	},
+	{
+		"champions": ["Jayce"],
+		"name": "Transformer",
+		"set": [
+			{
+				"bonus": "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows.",
+				"count": 1
+			}
+		]
+	},
+	{
+		"bonus": "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.",
+		"champions": ["Corki", "Gangplank", "Jinx", "Lucian"],
+		"name": "Twinshot",
+		"set": [
+			{ "bonus": "10 Attack Damage, 40% chance", "count": 2 },
+			{ "bonus": "25 Attack Damage, 55% chance", "count": 3 },
+			{ "bonus": "40 Attack Damage, 70% chance", "count": 4 },
+			{ "bonus": "60 Attack Damage, 100% chance", "count": 5 }
+		]
+	}
+]

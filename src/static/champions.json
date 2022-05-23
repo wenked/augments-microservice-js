@@ -1,0 +1,422 @@
+[
+	{
+		"classes": ["Arcanist"],
+		"cost": 1,
+		"icon": "/Brand.jpg",
+		"name": "Brand",
+		"origins": ["Debonair"]
+	},
+	{
+		"classes": ["Sniper"],
+		"cost": 1,
+		"icon": "/Caitlyn.jpg",
+		"name": "Caitlyn",
+		"origins": ["Enforcer"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 1,
+		"icon": "/Camille.jpg",
+		"name": "Camille",
+		"origins": ["Clockwork"]
+	},
+	{
+		"classes": ["Bodyguard"],
+		"cost": 1,
+		"icon": "/Darius.jpg",
+		"name": "Darius",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Innovator"],
+		"cost": 1,
+		"icon": "/Ezreal.jpg",
+		"name": "Ezreal",
+		"origins": ["Scrap"]
+	},
+	{
+		"classes": ["Bruiser"],
+		"cost": 1,
+		"icon": "/Illaoi.jpg",
+		"name": "Illaoi",
+		"origins": ["Mercenary"]
+	},
+	{
+		"classes": ["Striker"],
+		"cost": 1,
+		"icon": "/JarvanIV.jpg",
+		"name": "Jarvan IV",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Scholar"],
+		"cost": 1,
+		"icon": "/Kassadin.jpg",
+		"name": "Kassadin",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Assassin"],
+		"cost": 1,
+		"icon": "/Nocturne.jpg",
+		"name": "Nocturne",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Bodyguard"],
+		"cost": 1,
+		"icon": "/Poppy.jpg",
+		"name": "Poppy",
+		"origins": ["Yordle"]
+	},
+	{
+		"classes": ["Innovator"],
+		"cost": 1,
+		"icon": "/Singed.jpg",
+		"name": "Singed",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Assassin"],
+		"cost": 1,
+		"icon": "/Twitch.jpg",
+		"name": "Twitch",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 1,
+		"icon": "/Ziggs.jpg",
+		"name": "Ziggs",
+		"origins": ["Scrap", "Yordle"]
+	},
+	{
+		"classes": ["Sniper"],
+		"cost": 2,
+		"icon": "/Ashe.jpg",
+		"name": "Ashe",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Bodyguard"],
+		"cost": 2,
+		"icon": "/Blitzcrank.jpg",
+		"name": "Blitzcrank",
+		"origins": ["Scrap"]
+	},
+	{
+		"classes": ["Twinshot"],
+		"cost": 2,
+		"icon": "/Corki.jpg",
+		"name": "Corki",
+		"origins": ["Yordle"]
+	},
+	{
+		"classes": ["Enchanter"],
+		"cost": 2,
+		"icon": "/Lulu.jpg",
+		"name": "Lulu",
+		"origins": ["Yordle"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 2,
+		"icon": "/Quinn.jpg",
+		"name": "Quinn",
+		"origins": ["Mercenary"]
+	},
+	{
+		"classes": ["Bruiser", "Striker"],
+		"cost": 2,
+		"icon": "/RekSai.jpg",
+		"name": "RekSai",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Bruiser"],
+		"cost": 2,
+		"icon": "/Sejuani.jpg",
+		"name": "Sejuani",
+		"origins": ["Enforcer", "Hextech"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 2,
+		"icon": "/Swain.jpg",
+		"name": "Swain",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Scholar"],
+		"cost": 2,
+		"icon": "/Syndra.jpg",
+		"name": "Syndra",
+		"origins": ["Debonair"]
+	},
+	{
+		"classes": ["Assassin"],
+		"cost": 2,
+		"icon": "/Talon.jpg",
+		"name": "Talon",
+		"origins": ["Debonair"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 2,
+		"icon": "/Warwick.jpg",
+		"name": "Warwick",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Innovator"],
+		"cost": 2,
+		"icon": "/Zilean.jpg",
+		"name": "Zilean",
+		"origins": ["Clockwork"]
+	},
+	{
+		"classes": ["Scholar"],
+		"cost": 2,
+		"icon": "/Zyra.jpg",
+		"name": "Zyra",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Bruiser", "Colossus"],
+		"cost": 3,
+		"icon": "/Chogath.jpg",
+		"name": "Chogath",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Assassin", "Innovator"],
+		"cost": 3,
+		"icon": "/Ekko.jpg",
+		"name": "Ekko",
+		"origins": ["Scrap"]
+	},
+	{
+		"classes": ["Twinshot"],
+		"cost": 3,
+		"icon": "/Gangplank.jpg",
+		"name": "Gangplank",
+		"origins": ["Mercenary"]
+	},
+	{
+		"classes": ["Striker"],
+		"cost": 3,
+		"icon": "/Gnar.jpg",
+		"name": "Gnar",
+		"origins": ["Socialite", "Yordle"]
+	},
+	{
+		"classes": ["Bodyguard"],
+		"cost": 3,
+		"icon": "/Leona.jpg",
+		"name": "Leona",
+		"origins": ["Debonair"]
+	},
+	{
+		"classes": ["Twinshot"],
+		"cost": 3,
+		"icon": "/Lucian.jpg",
+		"name": "Lucian",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 3,
+		"icon": "/Malzahar.jpg",
+		"name": "Malzahar",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Sniper"],
+		"cost": 3,
+		"icon": "/Miss_Fortune.jpg",
+		"name": "Miss Fortune",
+		"origins": ["Mercenary"]
+	},
+	{
+		"classes": ["Enchanter"],
+		"cost": 3,
+		"icon": "/Morgana.jpg",
+		"name": "Morgana",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Enchanter"],
+		"cost": 3,
+		"icon": "/Senna.jpg",
+		"name": "Senna",
+		"origins": ["Socialite"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 3,
+		"icon": "/Tryndamere.jpg",
+		"name": "Tryndamere",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 3,
+		"icon": "/Vex.jpg",
+		"name": "Vex",
+		"origins": ["Yordle"]
+	},
+	{
+		"classes": ["Bruiser"],
+		"cost": 3,
+		"icon": "/Zac.jpg",
+		"name": "Zac",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 4,
+		"icon": "/Ahri.jpg",
+		"name": "Ahri",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Colossus"],
+		"cost": 4,
+		"icon": "/Alistar.jpg",
+		"name": "Alistar",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Bodyguard"],
+		"cost": 4,
+		"icon": "/Braum.jpg",
+		"name": "Braum",
+		"origins": ["Syndicate"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 4,
+		"icon": "/Draven.jpg",
+		"name": "Draven",
+		"origins": ["Debonair"]
+	},
+	{
+		"classes": ["Striker"],
+		"cost": 4,
+		"icon": "/Irelia.jpg",
+		"name": "Irelia",
+		"origins": ["Scrap"]
+	},
+	{
+		"classes": ["Sniper", "Striker"],
+		"cost": 4,
+		"icon": "/Jhin.jpg",
+		"name": "Jhin",
+		"origins": ["Clockwork"]
+	},
+	{
+		"classes": ["Assassin"],
+		"cost": 4,
+		"icon": "/Khazix.jpg",
+		"name": "Khazix",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Enchanter"],
+		"cost": 4,
+		"icon": "/Orianna.jpg",
+		"name": "Orianna",
+		"origins": ["Clockwork"]
+	},
+	{
+		"classes": ["Scholar"],
+		"cost": 4,
+		"icon": "/Renata_Glasc.jpg",
+		"name": "Renata Glasc",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Innovator"],
+		"cost": 4,
+		"icon": "/Seraphine.jpg",
+		"name": "Seraphine",
+		"origins": ["Socialite"]
+	},
+	{
+		"classes": ["Striker"],
+		"cost": 4,
+		"icon": "/Sivir.jpg",
+		"name": "Sivir",
+		"origins": ["Hextech"]
+	},
+	{
+		"classes": ["Bruiser"],
+		"cost": 4,
+		"icon": "/Vi.jpg",
+		"name": "Vi",
+		"origins": ["Enforcer", "Rival"]
+	},
+	{
+		"classes": ["Bodyguard", "Colossus"],
+		"cost": 5,
+		"icon": "/Galio.jpg",
+		"name": "Galio",
+		"origins": ["Socialite"]
+	},
+	{
+		"classes": ["Innovator", "Transformer"],
+		"cost": 5,
+		"icon": "/Jayce.jpg",
+		"name": "Jayce",
+		"origins": ["Enforcer"]
+	},
+	{
+		"classes": ["Twinshot"],
+		"cost": 5,
+		"icon": "/Jinx.jpg",
+		"name": "Jinx",
+		"origins": ["Rival", "Scrap"]
+	},
+	{
+		"classes": ["Challenger"],
+		"cost": 5,
+		"icon": "/Kaisa.jpg",
+		"name": "Kaisa",
+		"origins": ["Mutant"]
+	},
+	{
+		"classes": ["Scholar"],
+		"cost": 5,
+		"icon": "/Silco.jpg",
+		"name": "Silco",
+		"origins": ["Mastermind"]
+	},
+	{
+		"classes": ["Bruiser"],
+		"cost": 5,
+		"icon": "/Tahm_Kench.jpg",
+		"name": "Tahm Kench",
+		"origins": ["Glutton", "Mercenary"]
+	},
+	{
+		"classes": [],
+		"cost": 5,
+		"icon": "/Veigar.jpg",
+		"name": "Veigar",
+		"origins": ["Yordle-Lord"]
+	},
+	{
+		"classes": ["Arcanist"],
+		"cost": 5,
+		"icon": "/Viktor.jpg",
+		"name": "Viktor",
+		"origins": ["Chemtech"]
+	},
+	{
+		"classes": ["Sniper"],
+		"cost": 5,
+		"icon": "/Zeri.jpg",
+		"name": "Zeri",
+		"origins": ["Debonair"]
+	}
+]

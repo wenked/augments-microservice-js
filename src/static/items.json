@@ -1,0 +1,317 @@
+[
+	{
+		"effect": "The holder gains the Arcanist trait.",
+		"icon": "/Arcanist_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Arcanist Emblem"
+	},
+	{
+		"effect": "The holder gains the Assassin trait.",
+		"icon": "/Assassin_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Assassin Emblem"
+	},
+	{
+		"effect": "The holder gains the Challenger trait.",
+		"icon": "/Challenger_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Challenger Emblem"
+	},
+	{
+		"effect": "The holder gains the Chemtech trait.",
+		"icon": "/Chemtech_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Chemtech Emblem"
+	},
+	{
+		"effect": "The holder gains the Debonair trait.",
+		"icon": "/Debonair_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Debonair Emblem"
+	},
+	{
+		"effect": "The holder gains the Hextech trait.",
+		"icon": "/Hextech_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Hextech Emblem"
+	},
+	{
+		"effect": "The holder gains the Mutant trait.",
+		"icon": "/Mutant_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Mutant Emblem"
+	},
+	{
+		"effect": "The holder gains the Striker trait.",
+		"icon": "/Striker_Emblem.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Striker Emblem"
+	},
+	{
+		"effect": "During combat, the holder gains 25 Ability Power every 5 seconds.",
+		"icon": "/Archangel's_Staff.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Archangel's Staff"
+	},
+	{
+		"effect": "When combat begins, the holder and all allies within 1 hex in the same row gain a shield that blocks the damage and effects of the first enemy Ability, up to 600 damage.",
+		"icon": "/Banshee's_Claw.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Banshee's Claw"
+	},
+	{
+		"effect": "Physical damage heals the holder for 33% of the damage dealt.\n\n    Upon falling below 40% Health, the holder gains a 30% max Health shield that lasts up to 5 seconds.",
+		"icon": "/Bloodthirster.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Bloodthirster"
+	},
+	{
+		"effect": "The holder gains 50 Mana (including components). After casting their Ability, the holder gains 20 mana.",
+		"icon": "/Blue_Buff.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Blue Buff"
+	},
+	{
+		"effect": "Grants 70 bonus Armor (including components). Negates bonus damage from incoming critical hits. On being hit by an attack, deal 60/80/120 ★ magic damage to all nearby enemies (once every 2.5 seconds).",
+		"icon": "/Bramble_Vest.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Bramble Vest"
+	},
+	{
+		"effect": "When combat begins, the holder and all allies within 1 hex in the same row gain 30 Ability Power for the rest of combat.",
+		"icon": "/Chalice_of_Power.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Chalice of Power"
+	},
+	{
+		"effect": "The holder gains 50/75/100 ★ bonus Attack Damage (including components).",
+		"icon": "/Deathblade.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Deathblade"
+	},
+	{
+		"effect": "Grants 200 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 18% of their max Health (0.5 second cooldown).",
+		"icon": "/Dragon's_Claw.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Dragon's Claw"
+	},
+	{
+		"effect": "When the holder first drops below 50% health, they briefly enter stealth, becoming untargetable and shedding negative effects. After coming out of stealth, the holder gains an additional 40% bonus Attack Speed",
+		"icon": "/Edge_of_Night.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Edge of Night"
+	},
+	{
+		"effect": "Reduces the Attack Speed of enemies within 2 hexes by 35%.",
+		"icon": "/Frozen_Heart.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Frozen Heart"
+	},
+	{
+		"effect": "The holder gains 18 Armor and 18 Magic Resist for each enemy targeting them.",
+		"icon": "/Gargoyle_Stoneplate.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Gargoyle Stoneplate"
+	},
+	{
+		"effect": "The holder's Abilities and attacks do 20% bonus damage. If the target has more than 1600 maximum Health, the bonus increases to 60%.",
+		"icon": "/Giant_Slayer.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Giant Slayer"
+	},
+	{
+		"effect": "Attacks grant +6% bonus Attack Speed for the rest of combat.\n\n    This effect can stack any number of times.",
+		"icon": "/Guinsoo's_Rageblade.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Guinsoo's Rageblade"
+	},
+	{
+		"effect": "The holder gains both of the following:\n    • +10 Attack Damage and +10 Ability Power.\n    • Attacks and Abilities heal for 10% of damage dealt.\n    \n    At the beginning of each planning phase, one of these buffs is increased to 33%.",
+		"icon": "/Hand_of_Justice.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Hand of Justice"
+	},
+	{
+		"effect": "The holder's magic and true damage from Abilities heal them for 33% of the damage dealt. The holder also heals their lowest health ally for the same amount.",
+		"icon": "/Hextech_Gunblade.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Hextech Gunblade"
+	},
+	{
+		"effect": "The holder gains 75% Critical Strike Chance and 10% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.",
+		"icon": "/Infinity_Edge.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Infinity Edge"
+	},
+	{
+		"effect": "Enemies within 3 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 200% of their max Mana.",
+		"icon": "/Ionic_Spark.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Ionic Spark"
+	},
+	{
+		"effect": "The holder's magic and true damage from their Ability can critically strike. The holder gains 40% bonus Critical Strike Damage and 10 bonus Ability Power.",
+		"icon": "/Jeweled_Gauntlet.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Jeweled Gauntlet"
+	},
+	{
+		"effect": "When the holder inflicts a critical hit, the target's Armor is reduced by 70% for 5 seconds. This effect does not stack.",
+		"icon": "/Last_Whisper.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Last Whisper"
+	},
+	{
+		"effect": "When combat begins, the holder and all allies within 2 hexes in the same row gain a shield that blocks 300/350/400 ★ damage for 15 seconds.",
+		"icon": "/Locket_of_the_Iron_Solari.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Locket of the Iron Solari Whisper"
+	},
+	{
+		"effect": "When the holder deals magic or true damage with their Ability, they burn the target, dealing 20% of the target's maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn.",
+		"icon": "/Morellonomicon.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Morellonomicon"
+	},
+	{
+		"effect": "The holder gains 20% bonus Attack Speed. The holder is immune to crowd control in combat for 15 seconds.",
+		"icon": "/Quicksilver.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Quicksilver"
+	},
+	{
+		"effect": "The holder gains 75 bonus Ability Power (including components).",
+		"icon": "/Rabadon's_Deathcap.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Rabadon's Deathcap"
+	},
+	{
+		"effect": "Increases the holder's Attack Range by 1 hex and grants 55% bonus Attack Speed (including components).\n\n    The holder's attacks can no longer miss.",
+		"icon": "/Rapid_Firecannon.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Rapid Firecannon"
+	},
+	{
+		"effect": "Every 5 seconds, the holder radiates an aura to allies within 1 hex, healing them for 18% of their missing Health. Affected allies take 25% reduced damage from multi-target abilities and attacks for 5 seconds.",
+		"icon": "/Redemption.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Redemption"
+	},
+	{
+		"effect": "The holder gains 15 bonus Attack Damage. The holder's attacks fire a bolt at another nearby enemy, dealing 75% of the wearer's Attack Damage as physical damage.",
+		"icon": "/Runaan's_Hurricane.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Runaan's Hurricane"
+	},
+	{
+		"effect": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first cast, increasing their max Mana by 35% until they cast.",
+		"icon": "/Shroud_of_Stillness.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Shroud of Stillness"
+	},
+	{
+		"effect": "The holder's attacks restore 8 additional Mana.",
+		"icon": "/Spear_of_Shojin.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Spear of Shojin"
+	},
+	{
+		"effect": "The holder gains 10% bonus Attack Speed. Every third attack from the holder unleashes a chain lightning that bounces to 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds.",
+		"icon": "/Statikk_Shiv.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Statikk Shiv"
+	},
+	{
+		"effect": "Every 2 seconds, a random enemy within 2 hexes is burned for 16% of their maximum health as true damage over 8 seconds. Any healing they receive is reduced by 50%.",
+		"icon": "/Sunfire_Cape.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Sunfire Cape"
+	},
+	{
+		"effect": "Wearer's team gains +1 maximum team size.",
+		"icon": "/Tactician's_Crown.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Tactician's Crown"
+	},
+	{
+		"effect": "At the beginning of each planning phase, the holder equips 2 temporary items. Temporary items increase in power based on your player level.",
+		"icon": "/Thief's_Gloves.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Thief's Gloves"
+	},
+	{
+		"effect": "When the holder attacks or takes damage, they gain 2 Attack Damage and Ability Power. \n\n    This stacks up to 25 times, at which point the holder gains 25 Armor and Magic Resist.",
+		"icon": "/Titan's_Resolve.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Titan's Resolve"
+	},
+	{
+		"effect": "Grants 1000 bonus Health (including components).",
+		"icon": "/Warmog's_Armor.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Warmog's Armor"
+	},
+	{
+		"effect": "When combat begins, the holder and all allies within 1 hexes in the same row gain +30% Attack Speed for the rest of combat.",
+		"icon": "/Zeke's_Herald.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Zeke's Herald"
+	},
+	{
+		"effect": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.",
+		"icon": "/Zephyr.jpg",
+		"isArtifact": false,
+		"isUnique": true,
+		"name": "Zephyr"
+	},
+	{
+		"effect": "At the start of combat, the holder taunts enemies within 4 hexes. \n\n    When the holder dies, a Voidspawn arises taunting nearby enemies.",
+		"icon": "/Zz'Rot_Portal.jpg",
+		"isArtifact": false,
+		"isUnique": false,
+		"name": "Zz'Rot Portal"
+	}
+]
