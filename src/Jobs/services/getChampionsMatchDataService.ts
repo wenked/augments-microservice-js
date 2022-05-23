@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import axios from "axios";
+import chalk from "chalk";
 import chillout from "chillout";
 import log from "../../logger";
 import champions from "../../static/champions.json";
@@ -41,7 +42,7 @@ export default async function getChampionsMatchDataService() {
 		const matches = await prisma.matches.findMany();
 
 		await chillout.forEach(matches, async (match: any, key: number) => {
-			log.info(`Buscando dados de ${key + 1}/${matches.length} partidas...`);
+			log.info(`Buscando dados de ${chalk.bold.green(`${key + 1}/${matches.length}`)} partidas...`);
 
 			const { data: matchData } = await axios.get(
 				`https://americas.api.riotgames.com/tft/match/v1/matches/${match.matchid}?api_key=${process.env.RIOT_API_KEY}`
@@ -55,23 +56,9 @@ export default async function getChampionsMatchDataService() {
 			}
 
 			await chillout.forEach(matchData.info.participants, async (participant: any, key: number) => {
-				const units = participant.units;
-				console.log(units);
+				const { units } = participant;
+
 				await chillout.forEach(units, async (unit: any, key: number) => {
-					const champion = formatedChampions.find((champion) => {
-						return champion.name === unit.character_id.replace(/TFT6_/g, "");
-					});
-
-					/* 	if (champion) {
-						log.info(`Inserindo api_name do champion ${champion.name}`);
-						await prisma.champion.update({
-							data: {
-								api_name: unit.character_id,
-							},
-							where: { id: champion.id },
-						});
-					} */
-
 					const championMatchDataExists = await prisma.champions_match_data.findFirst({
 						where: {
 							api_name: unit.character_id,
@@ -81,11 +68,19 @@ export default async function getChampionsMatchDataService() {
 					});
 
 					if (championMatchDataExists) {
-						log.info(`Dados da partida do champion ${unit.character_id} já existem`);
+						log.info(
+							`Dados da partida do champion  ${chalk.bold.blueBright(
+								`${unit.character_id}`
+							)} já existem`
+						);
 						return;
 					}
 
-					log.info(`Inserindo dados da partida do champion ${unit.character_id}`);
+					log.info(
+						`Inserindo dados da partida do champion ${chalk.bold.blueBright(
+							`${unit.character_id}`
+						)}`
+					);
 					await prisma.champions_match_data.create({
 						data: {
 							api_name: unit.character_id,

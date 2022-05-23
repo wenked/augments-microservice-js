@@ -64,7 +64,7 @@ model champion {
   trait_2       String?   @db.VarChar(255)
   trait_3       String?   @db.VarChar(255)
   cost          Int?
-  avg_placement Int?
+  avg_placement Float?    @db.Float
   winrate       Int?
   top4          Int?
   created_at    DateTime? @default(now()) @db.Timestamp(0)

@@ -2,6 +2,7 @@ import log from "../logger";
 
 import {
 	generateAugmentsStats,
+	generateChampionsStatsService,
 	generatePlayerDataService,
 	getAugmentsMatchDataService,
 	getChampionsMatchDataService,
@@ -26,7 +27,8 @@ export default async function augmentStatsJob({
 		// await generatePlayerDataService(id);
 		// await getMatchDataService(id);
 		// await getAugmentMatchDataService(id);
-		await getChampionsMatchDataService();
+		//await getChampionsMatchDataService();
+		await generateChampionsStatsService();
 	} catch (error) {
 		log.error(`Error in augmentStatsJob: ${error}`);
 		throw new Error("Error in augmentStatsJob");
