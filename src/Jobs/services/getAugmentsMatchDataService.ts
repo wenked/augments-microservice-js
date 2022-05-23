@@ -5,12 +5,11 @@ import log from "../../logger";
 import agumentData from "../../static/augments_stats_formated.json";
 import { sleep } from "../../utils";
 
-export default async function getAugmentsMatchDataService(id: number) {
+export default async function getAugmentsMatchDataService(id: number, prisma: PrismaClient) {
 	try {
 		log.info(`Busca dados de partida -> Historic ID ${id}`);
 		let requestCount = 0;
 
-		const prisma = new PrismaClient();
 		await prisma.historic_stats.update({
 			data: {
 				progresso: 0.66,

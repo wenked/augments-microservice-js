@@ -1,17 +1,17 @@
-import client, { Connection, Channel, ConsumeMessage } from "amqplib";
+import client, { Channel, Connection, ConsumeMessage } from "amqplib";
+import generateStatsJob from "../Jobs/generateStatsJob";
 import log from "../logger";
-import augmentStatsJob from "../Jobs/augmentStatsJob";
 
 export default async function Worker() {
 	try {
 		const consumer =
 			(channel: Channel) =>
-			(msg: ConsumeMessage | null): void => {
+			async (msg: null | ConsumeMessage): Promise<void> => {
 				try {
 					if (msg) {
 						const message = JSON.parse(msg.content.toString());
 						log.info(message);
-						augmentStatsJob(message);
+						await generateStatsJob(message);
 
 						channel.ack(msg);
 					}

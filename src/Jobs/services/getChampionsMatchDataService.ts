@@ -6,11 +6,10 @@ import log from "../../logger";
 import champions from "../../static/champions.json";
 import { sleep } from "../../utils";
 
-export default async function getChampionsMatchDataService() {
+export default async function getChampionsMatchDataService(id: number, prisma: PrismaClient) {
 	try {
 		let requestCount = 0;
 		log.info(`Buscando dados dos champions`);
-		const prisma = new PrismaClient();
 
 		const championsExists = await prisma.champion.findMany();
 

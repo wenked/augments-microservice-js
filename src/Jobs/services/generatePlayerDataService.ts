@@ -1,24 +1,23 @@
-import log from "../../logger";
 import { PrismaClient } from "@prisma/client";
-import chillout from "chillout";
 import axios from "axios";
+import chillout from "chillout";
+import log from "../../logger";
 import { sleep } from "../../utils";
 
-export default async function generatePlayerDataService(id: number) {
+export default async function generatePlayerDataService(id: number, prisma: PrismaClient) {
 	log.info(`Gerando player data -> Historic ID ${id}`);
 	let request_count = 0;
 
 	try {
-		const prisma = new PrismaClient();
 		const ranks = ["challenger", "grandmaster", "master"];
 
 		await prisma.historic_stats.update({
+			data: {
+				progresso: 0.33,
+				status: "Buscando players",
+			},
 			where: {
 				id,
-			},
-			data: {
-				status: "Buscando players",
-				progresso: 0.33,
 			},
 		});
 
@@ -80,19 +79,19 @@ export default async function generatePlayerDataService(id: number) {
 
 					await prisma.matches.create({
 						data: {
-							matchid: match_id,
 							elo: rank,
+							matchid: match_id,
 						},
 					});
 				});
 
 				await prisma.historic_stats.update({
+					data: {
+						progresso: 0.33 + (key / players.length) * 0.33,
+						status: `Buscando ${rank} players`,
+					},
 					where: {
 						id,
-					},
-					data: {
-						status: `Buscando ${rank} players`,
-						progresso: 0.33 + (key / players.length) * 0.33,
 					},
 				});
 			});

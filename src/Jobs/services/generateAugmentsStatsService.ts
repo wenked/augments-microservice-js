@@ -12,9 +12,8 @@ interface AugmentStatsJobProps {
 	tier: string;
 }
 
-export default async function generateAugmentsStats(id: number) {
+export default async function generateAugmentsStats(id: number, prisma: PrismaClient) {
 	try {
-		const prisma = new PrismaClient();
 		await prisma.historic_stats.update({
 			data: {
 				progresso: 0.8,

@@ -1,4 +1,5 @@
 import { Prisma, PrismaClient } from "@prisma/client";
+
 import chalk from "chalk";
 import chillout from "chillout";
 import log from "../../logger";
@@ -7,9 +8,8 @@ interface ChampionStatsJobProps {
 	avg_placement: null | number;
 }
 
-export default async function generateChampionsStatsService() {
+export default async function generateChampionsStatsService(id: number, prisma: PrismaClient) {
 	try {
-		const prisma = new PrismaClient();
 		const champions = await prisma.champion.findMany();
 
 		await chillout.forEach(champions, async (champion, key) => {
