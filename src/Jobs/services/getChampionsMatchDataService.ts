@@ -31,13 +31,6 @@ export default async function getChampionsMatchDataService(id: number, prisma: P
 			});
 		}
 
-		const formatedChampions = championsExists.map((champion) => {
-			return {
-				id: champion.id,
-				name: champion.name.replace(/\s/g, ""),
-			};
-		});
-
 		const matches = await prisma.matches.findMany();
 
 		await chillout.forEach(matches, async (match: any, key: number) => {

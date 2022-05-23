@@ -38,6 +38,7 @@ export default async function generateStatsJob({ id, service }: GenerateStatsJob
 				await getAugmentsMatchDataService(id, prisma);
 				break;
 			default:
+				log.error(`Service ${service} not found!`);
 				break;
 		}
 	} catch (error) {
